@@ -220,8 +220,6 @@ CP‑VASP 需要先安装 VASPsol 或 VASPsol++：
 - 并行运行：`mpirun -np N vasp`（N 为核心数）
 - 环境变量：建议将 Intel oneAPI 环境声明和 VASP 路径写入 `~/.bashrc`
 
----
-
 *本指南整合了 VASP 6.3.2 基础安装、VTST 插件、VASPsol++ 溶剂模型以及 CP‑VASP 恒电势方法的完整流程。*
 ```
 
