@@ -1,4 +1,4 @@
-好的，我将把您提供的第三个文件（CP-VASP 安装说明）与之前的两份内容（VASP 6.3.2 + VTST 编译，以及 VASPsol++ 安装说明）合并成一份完整的安装指南，并整理为适合上传 GitHub 的 Markdown 格式。
+
 
 ```markdown
 # VASP 6.3.2 + VTST + VASPsol++ + CP‑VASP 完整安装指南
