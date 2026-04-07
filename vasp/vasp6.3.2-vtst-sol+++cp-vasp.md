@@ -298,7 +298,8 @@ CP‑VASP 需要先安装 **VASPsol** 或 **VASPsol++**。
    - 若使用 VASPsol++：`cp-vaspsol++.patch`
    - 若使用 VASPsol：`cp-vaspsol.patch`
 
-3. **应用补丁**（以 VASP 6.3 + VASPsol++ 为例）：
+3. **应用补丁**（以 VASP 6.3 + VASPsol++ 为例）如图所示![cp-vasp成功编译](./images/image2.png)：
+
    ```bash
    patch -p0 < cp-vaspsol++.patch
    ```
