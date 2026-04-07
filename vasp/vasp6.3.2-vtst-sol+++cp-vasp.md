@@ -265,6 +265,7 @@ patch -p1 < src/vaspsol++-vtst-vasp_6.3.2.patch
 ```
 
 成功后会显示类似 `succeeded` 的提示如图![SOL++成功编译](./images/image1.png)
+
 然后执行：
 ```bash
 make all
