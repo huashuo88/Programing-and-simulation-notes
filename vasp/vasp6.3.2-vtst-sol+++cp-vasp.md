@@ -1,17 +1,17 @@
-```markdown
-# VASP 6.3.2 + VTST + VASPsol++ + CP‑VASP 完整安装指南
+# VASP 6.3.2 + VTST + VASPsol++ + CP-VASP 完整安装指南
 
-本指南整合 VASP 6.3.2 基础安装、VTST 过渡态工具、VASPsol++ 溶剂模型以及 CP‑VASP 恒电势方法的完整编译流程。
+本指南整合 VASP 6.3.2 基础安装、VTST 过渡态工具、VASPsol++ 溶剂模型以及 CP-VASP 恒电势方法的完整编译流程。
 
 ---
 
 ## 一、VASP 6.3.2 基础安装
 
-> 参考链接：<https://www.bilibili.com/opus/682064175698018357>
+&gt; 参考链接：https://www.bilibili.com/opus/682064175698018357
 
 VASP（Vienna Ab-initio Simulation Package）是进行电子结构计算和分子动力学模拟的软件包。以下安装步骤在 Parallels Desktop 17 虚拟机的 Ubuntu 20.04.2 系统上验证通过。
 
 ### Step 1：安装 Ubuntu 20.04.2
+
 通过 PD17 安装默认的 Ubuntu 20.04.2 虚拟机即可（VASP 官网推荐 18.xx，但 20.04.2 同样适用）。
 
 ### Step 2：更新系统 & 安装编译器
@@ -21,7 +21,6 @@ VASP（Vienna Ab-initio Simulation Package）是进行电子结构计算和分�
    ```bash
    sudo apt update
    sudo apt upgrade
-   ```
 3. **安装编译所需包**：
    ```bash
    sudo apt install build-essential
